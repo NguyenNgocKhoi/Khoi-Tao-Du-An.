@@ -18,6 +18,11 @@ const routes = [
         name: "NotFound",
         component: () => import("../views/NotFound.vue"),
     },
+    {
+        path: "/addcontacts",
+        name: "AddContact",
+        component: () => import("@/views/ContactAdd.vue"),
+    },
 ];
 
 const router = createRouter({
