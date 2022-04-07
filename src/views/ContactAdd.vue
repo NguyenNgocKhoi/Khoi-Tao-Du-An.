@@ -24,7 +24,7 @@ export default {
         };
     },
     methods: {
-        async crateContact(data){
+        async createContact(data){
             try{
                 await ContactService.create(data);
                 this.message = "Liên hệ được tạo thành công.";
